@@ -37,11 +37,12 @@ function setup() {
   mSpecialButtons[1] = new Button(offSetX+4*buttonSize*1.2, offSetY-1*buttonSize*1.2, buttonSize, "CLR", '#d02040', '#fff');
   
   mSpecialButtons[2] = new Button(offSetX+4*buttonSize*1.2, offSetY, buttonSize, "=", '#d02040', '#fff');
-  
+
+  /*
   let test = "(((2+3))+2)+3";
-  
   console.log(depurate(test));
   mTextDisplayer.insertCharacter(test);
+  */
 }
 
 function draw() {
